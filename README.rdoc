@@ -1,0 +1,24 @@
+= node-like
+
+Simple facebook like iframe rewriter to switch like buttons on pages to your very own implementation.
+
+== About
+
+Since like buttons are popping up in a lot of places and while I'm not an avid facebook user I still like the idea
+of liking stuff and pushing it into my network, that's why I hacked down this little node.js proxy.
+What it does is basically just rewriting the new facebook iframe plugins to whatever I like, I took delicious as an
+example but anything would work, there are some limitations though (everything still has to go through the proxy and other stuff).
+
+* original proxycode is copied from http://github.com/mikeal/node.proxy.js and adapted for my needs.
+* button layout is adapted from http://designlovr.com/beautiful-photoshop-like-buttons-with-css3/
+* comments? http://protonet.info
+
+== Usage
+
+* you need node.js on your machine, download the node-like.js script and start it with: node node-like.js
+* now setup your browser or system to use this proxy-server: 127.0.0.1 port: 8000
+* browse! and see the like buttons magically switched with your own ones (try http://ajaxian.com for an nice example)
+
+== License
+
+Do whatever you want.

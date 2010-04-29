@@ -9,6 +9,11 @@ of liking stuff and pushing it into my network, that's why I hacked down this li
 What it does is basically just rewriting the new facebook iframe plugins to whatever I like, I took delicious as an
 example but anything would work, there are some limitations though (everything still has to go through the proxy and other stuff).
 
+it turns:
+http://img.skitch.com/20100429-d98b44pr9b79rxei8jwesx8if1.jpg
+into:
+http://img.skitch.com/20100429-t7ii93ig9bany2fe26yscsau4i.jpg
+
 * original proxycode is copied from http://github.com/mikeal/node.proxy.js and adapted for my needs.
 * button layout is adapted from http://designlovr.com/beautiful-photoshop-like-buttons-with-css3/
 * comments? http://protonet.info
